@@ -1,4 +1,4 @@
-// import { Component } from "react";
+import { Component } from "react";
 import "./App.css";
 
 // const Header = () => {
@@ -33,31 +33,40 @@ import "./App.css";
 //   return <button>{logged ? "Enter" : text}</button>;
 // }
 
-function WhoAmi({ name, surname }) {
-  return (
-    <div>
-      <h1>
-        Ma name is {name()}, surname - {surname}
-      </h1>
-    </div>
-  );
+class WhoAmi extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      years: 27,
+      text: "+++",
+    };
+  }
+
+  nextYear = () => {
+    console.log("+++");
+    this.setState((state) => ({
+      years: state.years + 1,
+    }));
+  };
+
+  render() {
+    const { name, surname } = this.props;
+    return (
+      <div>
+        <button onClick={this.nextYear}>{this.state.text}</button>
+        <h1>
+          Ma name is {name}, surname - {surname}, age - {this.state.years}
+        </h1>
+      </div>
+    );
+  }
 }
 
 function App() {
   return (
     <div className="App">
-      <WhoAmi
-        name={() => {
-          return "Artoym";
-        }}
-        surname="Shulyak"
-      />
-      <WhoAmi
-        name={() => {
-          return "Dima";
-        }}
-        surname="Shulyak"
-      />
+      <WhoAmi name="Artoym" surname="Shulyak" />
+      <WhoAmi name="Dima" surname="Shulyak" />
     </div>
   );
 }
