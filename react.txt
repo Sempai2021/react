@@ -10,8 +10,8 @@
 # WEB -> 25 minites...
 ...
 # 127 -> 13 minutes -> finished
-# 128 -> 20 minutes -> .
-
+# 128 -> 20 minutes -> finished
+# 129 -> 15 minutes -> ...
 
 
 
