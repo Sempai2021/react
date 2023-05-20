@@ -12,16 +12,19 @@ function App() {
       name: "Artoym S.",
       salary: 800,
       increase: false,
+      id: 1,
     },
     {
       name: "Dima S.",
       salary: 1200,
       increase: true,
+      id: 2,
     },
     {
       name: "Swetlana V.",
       salary: 2100,
       increase: false,
+      id: 3,
     },
   ];
 
