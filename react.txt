@@ -1,5 +1,18 @@
-# 122 -> finished
-# 123 -> finished
+# 118 -> 3 mintes -> finished
+# 119 -> 4 minutes -> finished
+# 120 -> 17 minutes -> finished
+# 121 -> 14 minutes -> finished
+# 122 -> 32 minutes -> finished
+# 123 -> 26 minutes -> finished
 # 124 -> 5 minutes -> finished
 # 125 -> description -> finished -> after 8 module
-# 126 -> 43 minutes -> ...
+# 126 -> 43 minutes -> finished
+# WEB -> 25 minites...
+...
+# 127 -> 13 minutes -> ...
+
+
+
+
+# command
+export NODE_OPTIONS=--openssl-legacy-provider
