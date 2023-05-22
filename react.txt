@@ -15,7 +15,7 @@
 ...
 # 131 -> 4 minutes -> finished
 # 132 -> 17 minutes -> finished
-# 133 -> 8 minutes -> ...
+# 133 -> 8 minutes -> finished
 # 135 ->
 
 # command
