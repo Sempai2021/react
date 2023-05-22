@@ -20,6 +20,6 @@
 # 135 -> 24 minutes -> finished
 # 136 -> 31 minutes -> finished
 # 137 -> 5 minites - > finished
-# 138 -> ... -> ...
+# 138 -> 37 minutes -> ...
 # command
 export NODE_OPTIONS=--openssl-legacy-provider
